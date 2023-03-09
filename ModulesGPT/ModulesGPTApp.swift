@@ -11,7 +11,16 @@ import SwiftUI
 struct ModulesGPTApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootView()
+        }
+    }
+}
+
+struct RootView: View {
+    var body: some View {
+        TabView {
+            ModulesView()
+            SettingsView()
         }
     }
 }

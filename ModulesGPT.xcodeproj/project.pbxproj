@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		B23DF09429B9DF03001FA125 /* ModulesGPTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23DF09329B9DF03001FA125 /* ModulesGPTApp.swift */; };
-		B23DF09629B9DF03001FA125 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23DF09529B9DF03001FA125 /* ContentView.swift */; };
 		B23DF09829B9DF0C001FA125 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B23DF09729B9DF0C001FA125 /* Assets.xcassets */; };
 		B23DF09B29B9DF0C001FA125 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B23DF09A29B9DF0C001FA125 /* Preview Assets.xcassets */; };
+		B23DF0A229B9E12A001FA125 /* ModulesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23DF0A129B9E12A001FA125 /* ModulesView.swift */; };
+		B23DF0A429B9E158001FA125 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23DF0A329B9E158001FA125 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B23DF09029B9DF03001FA125 /* ModulesGPT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModulesGPT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B23DF09329B9DF03001FA125 /* ModulesGPTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModulesGPTApp.swift; sourceTree = "<group>"; };
-		B23DF09529B9DF03001FA125 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B23DF09729B9DF0C001FA125 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B23DF09A29B9DF0C001FA125 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B23DF0A129B9E12A001FA125 /* ModulesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModulesView.swift; sourceTree = "<group>"; };
+		B23DF0A329B9E158001FA125 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				B23DF09329B9DF03001FA125 /* ModulesGPTApp.swift */,
-				B23DF09529B9DF03001FA125 /* ContentView.swift */,
+				B23DF0A329B9E158001FA125 /* SettingsView.swift */,
+				B23DF0A129B9E12A001FA125 /* ModulesView.swift */,
 				B23DF09729B9DF0C001FA125 /* Assets.xcassets */,
 				B23DF09929B9DF0C001FA125 /* Preview Content */,
 			);
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B23DF09629B9DF03001FA125 /* ContentView.swift in Sources */,
+				B23DF0A429B9E158001FA125 /* SettingsView.swift in Sources */,
+				B23DF0A229B9E12A001FA125 /* ModulesView.swift in Sources */,
 				B23DF09429B9DF03001FA125 /* ModulesGPTApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
